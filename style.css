@@ -26,6 +26,26 @@ body {
   font-weight: 600;
   margin-bottom: 25px;
 }
+/* Mobile devices only: max-width 480px */
+@media (max-width: 480px) {
+  /* Keep only the form visible */
+  .route-card {
+    display: block;      /* Ensure the form shows */
+    width: 95%;
+    padding: 20px;
+    margin: 0 auto;
+  }
+
+  /* Hide all other floating elements and text */
+  p,
+  .guide,
+  .team,
+  .developed,
+  .bottom-marquee {
+    display: none !important;
+  }
+}
+
 
 label {
   font-weight: 600;
