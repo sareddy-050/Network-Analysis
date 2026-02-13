@@ -79,14 +79,9 @@ p {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-
-p:hover {
-  transform: scale(1.03);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
-}
 .guide {
   position: fixed;
-  bottom: 20px;
+  bottom: 200px;      /* stays at bottom */
   left: 20px;
   color: #ffffff;
   font-size: 1rem;
@@ -94,15 +89,14 @@ p:hover {
   font-style: italic;
   letter-spacing: 0.5px;
   background: rgba(0, 0, 0, 0);
-  padding: 18px 20px;   /* Increased vertical padding */
+  padding: 18px 20px;
   border-radius: 8px;
-  line-height:50;     /* Adds more vertical spacing inside */
+  line-height: 1.8;   /* fixed */
 }
-
 
 .team {
   position: fixed;
-  bottom: 100px;   /* Positioned above guide */
+  top: 200px;        /* moved to top */
   left: 20px;
   color: #ffffff;
   font-size: 1rem;
@@ -112,11 +106,12 @@ p:hover {
   background: rgba(0, 0, 0, 0.4);
   padding: 18px 20px;
   border-radius: 8px;
-  line-height: 2;
+  line-height: 1.8;
 }
+
 .developed {
   position: fixed;
-  bottom: 20px;
+  bottom: 50px;
   right: 20px;
   color: #ffffff;
   font-size: 1rem;
@@ -128,5 +123,19 @@ p:hover {
   border-radius: 8px;
   line-height: 1.8;
   text-align: left;
+}
+.bottom-marquee {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  padding: 10px 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 
