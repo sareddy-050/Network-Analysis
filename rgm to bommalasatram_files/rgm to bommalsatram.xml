@@ -1,0 +1,55 @@
+<?xml version="1.0"?><NA:DIRECTIONS version="1.0" xmlns:NA="http://www.esri.com/arcgis/directions" xmlns="http://www.esri.com/arcgis/directions">
+  <ROUTE id="1" name="Graphic Pick 1 - Graphic Pick 4">
+    <PATH id="1" fromStop="Graphic Pick 1" toStop="Graphic Pick 4">
+      <DIRECTION id="1" distance="0.000000" cumul_length="0.000000" time="0.000000" drivetime="0.000000" turn_angle="0.000000" depart_bearing="0.000000" general_bearing="0.000000" maneuvertype="depart">
+        <ENVELOPE minx="78.377246" miny="15.505486" maxx="78.377246" maxy="15.505486"/>
+        <POINT name="maneuver" x="78.377246" y="15.505486"/>
+        <STRINGS>
+          <STRING style="depart" text="Start at Graphic Pick 1"/>
+          <STRING style="Cumul_length" text="0 m"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="2" distance="6.592148" cumul_length="0.000000" time="6.591238" drivetime="6.591238" turn_angle="0.000000" depart_bearing="107.051965" general_bearing="111.407965" maneuvertype="straight">
+        <ENVELOPE minx="78.377246" miny="15.483229" maxx="78.434016" maxy="15.505486"/>
+        <POINT name="maneuver" x="78.377246" y="15.505486"/>
+        <STRINGS>
+          <STRING style="normal" text="Go east on rgm road"/>
+          <STRING style="Cumul_length" text="0 m"/>
+          <STRING style="summary" text="Drive 6.6 km ~ 7 min"/>
+          <STRING style="length" text="6.6 km"/>
+          <STRING style="time" text="7 min"/>
+          <STRING style="street_name" text="rgm road"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="3" distance="3.146059" cumul_length="6.592148" time="3.131470" drivetime="3.131470" turn_angle="356.600211" depart_bearing="108.878713" general_bearing="111.491231" maneuvertype="straight">
+        <ENVELOPE minx="78.434016" miny="15.472637" maxx="78.460916" maxy="15.483229"/>
+        <POINT name="maneuver" x="78.434016" y="15.483229"/>
+        <STRINGS>
+          <STRING style="normal" text="Continue"/>
+          <STRING style="Cumul_length" text="6.6 km"/>
+          <STRING style="summary" text="Drive 3.1 km ~ 3 min"/>
+          <STRING style="length" text="3.1 km"/>
+          <STRING style="time" text="3 min"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="4" distance="0.000000" cumul_length="9.738207" time="0.000000" drivetime="0.000000" turn_angle="0.000000" depart_bearing="0.000000" general_bearing="0.000000" maneuvertype="stop">
+        <ENVELOPE minx="78.460916" miny="15.472637" maxx="78.460916" maxy="15.472637"/>
+        <POINT name="maneuver" x="78.460916" y="15.472637"/>
+        <STRINGS>
+          <STRING style="arrive" text="Finish at Graphic Pick 4, on the right"/>
+          <STRING style="Cumul_length" text="9.7 km"/>
+        </STRINGS>
+      </DIRECTION>
+    </PATH>
+    <DIRECTION id="summary" distance="9.738207" cumul_length="9.738207" time="9.722708" drivetime="9.722708" turn_angle="0.000000" depart_bearing="0.000000" general_bearing="0.000000" maneuvertype="unknown">
+      <ENVELOPE minx="78.377246" miny="15.472619" maxx="78.460916" maxy="15.505503"/>
+      <STRINGS>
+        <STRING style="summary" text="Total time: 10 min"/>
+        <STRING style="summary" text="Total distance: 9.7 km"/>
+        <STRING style="length" text="9.7 km"/>
+        <STRING style="time" text="10 min"/>
+        <STRING style="Cumul_length" text="9.7 km"/>
+      </STRINGS>
+    </DIRECTION>
+  </ROUTE>
+</NA:DIRECTIONS>
